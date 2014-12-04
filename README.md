@@ -1,5 +1,6 @@
-Cyanogenmod 10 Device tree Optimus f3 Virgin Mobile
+Cyanogenmod 10 Device tree
 =======================
+**LG Optimus f3 - Virgin Mobile**
 ```
 This is an attempt to create a cyanogenmod 10 device tree
 for the LG Optimus F3 Virgin Mobile Phone.
