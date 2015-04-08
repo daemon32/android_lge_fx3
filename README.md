@@ -29,3 +29,6 @@ What doesn't:
 Bluetooth
 4g (some report working with a apns-config.xml patch?)
 ???
+
+
+Thanks phenomx4 for your work creating proper device tree
