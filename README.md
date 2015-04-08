@@ -5,7 +5,7 @@ Cyanogenmod 10 Device tree
 This is an attempt to create a cyanogenmod 10 device tree
 for the LG Optimus F3 Virgin Mobile Phone.
 
-It's based off of the 'booting' rom ported from the Korean LG Optimus F7
+It's based off of the 'booting' rom
 http://androidforums.com/threads/rom-alpha-4-1-2-cyanogenmod-10-0-unofficial.879041/
 
 This is a work in progress. At this stage the device tree is still being created
