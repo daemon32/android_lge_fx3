@@ -1,0 +1,4 @@
+lib/libhardware_legacy.so Controls vibration and wifi. Stock(wifi) CM(vibrate)
+lib/hw/copybit.msm8960.so Controls home button lights
+
+gralloc.msm8960.so needs to be fixed.

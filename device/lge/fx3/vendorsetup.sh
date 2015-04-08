@@ -1,2 +1,0 @@
-add_lunch_combo cm_fx3-userdebug
-add_lunch_combo cm_fx3-eng
