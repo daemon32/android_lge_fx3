@@ -165,6 +165,7 @@ etc/wifi/FTM_PowerTable.XML
 etc/permissions/com.lge.wifiext.xml
 bin/wpa_supplicant
 lib/libhardware_legacy.so
+lib/hw/gralloc.msm8960.so
 
 # Bluetooth
 bin/btld
