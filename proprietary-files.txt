@@ -178,9 +178,13 @@ etc/nfcee_access.xml
 
 
 # GPS
-#bin/gpsone_daemon
-#lib/libgeofence.so
-#lib/libloc_api_v02.so
+lib/libgps.util.so
+lib/libloc_adapter.so
+lib/libloc_ext.so
+lib/libloc_eng.so
+lib/libloc_api_v02.so
+lib/hw/gps.default.so
+etc/gps.conf
 
 # FM
 etc/init.qcom.fm.sh
