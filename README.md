@@ -18,7 +18,7 @@ Kernel I compile with is https://github.com/phenomx4/android_kernel_lge_fx3
 Current ramdisk doesn't boot at all. To be updated soon. Use Stock boot until then.
 
 What works:
-'''
+```
 *Ril
 *3g
 *sms
@@ -26,17 +26,17 @@ What works:
 *rotation
 *wifi
 *gps
-'''
+```
 
 What doesn't:
 '''
 Bluetooth
 4g (some report working with a apns-config.xml patch?)
 ???
-'''
+```
 
-'''
+```
 Thanks phenomx4 for your work creating proper device tree
 Thanks masterdebugger for your excellent digging
 Thanks sandix for your debugging and all of your wonderful suggestions
-'''
+```
