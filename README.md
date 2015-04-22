@@ -29,7 +29,7 @@ What works:
 ```
 
 What doesn't:
-'''
+```
 Bluetooth
 4g (some report working with a apns-config.xml patch?)
 ???
