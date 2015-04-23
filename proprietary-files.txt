@@ -178,7 +178,7 @@ etc/nfcee_access.xml
 
 
 # GPS
-lib/libgps.util.so
+lib/libgps.utils.so
 lib/libloc_adapter.so
 lib/libloc_ext.so
 lib/libloc_eng.so
@@ -272,7 +272,6 @@ lib/libchromatix_imx119_video.so
 lib/libdss.so
 lib/libdsucsd.so
 lib/libgps.so
-lib/libgps.utils.so
 lib/libjni_spellchecker.so
 lib/liblgftmitem.so
 lib/libloc_adapter.so
