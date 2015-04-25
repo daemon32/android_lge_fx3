@@ -303,4 +303,3 @@ lib/libttspico.so
 lib/libwfconabswpas.so
 lib/libwvm.so
 lib/libWVStreamControlAPI_L1.so
-lib/libjackpal-androidterm4.so
