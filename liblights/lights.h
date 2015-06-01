@@ -6,4 +6,4 @@ char const*const BUTTON_BACKLIGHT_FILE[] = {
   "/sys/class/leds/button-backlight/brightness",
 };
 
-char const*const LCD_BACKLIGHT_FILE	= "/sys/class/leds/wled/brightness";
+char const*const LCD_BACKLIGHT_FILE	= "/sys/class/leds/lcd-backlight/brightness";
