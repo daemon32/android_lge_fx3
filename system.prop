@@ -5,11 +5,11 @@
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 ro.telephony.ril_class=QualcommSharedRIL
-ro.telephony.ril.v3=qcomdsds,subscriptionFromSource,skipCdmaSubcription,icccardstatus,qcomuiccstack
+ro.telephony.ril.v3=qcomdsds,icccardstatus,qcomuiccstack,signalstrength
 ro.vendor.extension_library=/system/lib/libqc-opt.so
 ro.baseband.arch=msm
-ro.ril.def.preferred.network=8
-ro.telephony.default_network=8
+ro.ril.def.preferred.network=9
+ro.telephony.default_network=9
 mobiledata.interfaces=wlan0,rmnet0,rmnet1,rmnet2
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
@@ -23,13 +23,9 @@ persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
 ro.ril.hsxpa=2
 ro.config.ehrpd=true
-ro.config.svlte1x=true
-ro.telephony.default_cdma_sub=1
-telephony.lte.cdma.device=1
-telephony.lteOnCdmaProductType=lte
-ro.cdma.subscribe_on_ruim_ready=true
-persist.radio.no_wait_for_card=1
-keyguard.no_require_sim=true
+#ro.config.svlte1x=true
+#persist.radio.no_wait_for_card=1
+#keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 debug.sf.hw=1
 debug.egl.hw=1
@@ -83,7 +79,7 @@ persist.timed.enable=true
 # System props for audio
 persist.audio.fluence.mode=endfire
 persist.audio.vr.enable=false
-persist.audio.handset.mic=analog
+persist.audio.handset.mic=digital
 persist.audio.voice.clarity=none
 
 # System prop to select audio resampler quality
@@ -115,8 +111,8 @@ ro.qualcomm.cabl=0
 #LGE_CHANGE_E CABL off
 
 # System props for telephony
-# System prop to turn on CdmaLTEPhone always
-telephony.lteOnCdmaDevice=1
+# System prop to turn on GsmLTEPhone always
+telephony.lteOnGsmDevice=1
 
 #
 # System prop for sending transmit power request to RIL during WiFi hotspot on/off
@@ -183,17 +179,14 @@ wifi.supplicant_scan_interval=50
 wifi.lge.patch=true
 wifi.lge.hanglessid=false
 
-ro.cdma.home.operator.alpha=Virgin Mobile
-ro.cdma.home.operator.subscriber=31000
-ro.cdma.home.operator.numeric=311490
-gsm.sim.operator.alpha=Virgin Mobile
-gsm.sim.operator.numeric=311490
+gsm.sim.operator.alpha=T-Mobile
+gsm.sim.operator.numeric=310260
 gsm.sim.operator.iso-country=us
-gsm.operator.alpha=Virgin Mobile
-gsm.operator.numeric=311490
+gsm.operator.alpha=T-Mobile
+gsm.operator.numeric=310260
 gsm.operator.iso-country=us
 ro.com.google.clientidbase=android-zte
-ro.com.google.clientidbase.yt=android-virgin-us
-ro.com.google.clientidbase.am=android-virgin-us
+ro.com.google.clientidbase.yt=android-tmo-us
+ro.com.google.clientidbase.am=android-tmo-us
 ro.com.google.clientidbase.gmm=android-zte
-ro.com.google.clientidbase.ms=android-virgin-us
+ro.com.google.clientidbase.ms=android-tmo-us
