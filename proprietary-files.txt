@@ -238,6 +238,25 @@ lib/egl/libGLESv2S3D_adreno200.so
 lib/egl/libplayback_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 
+# Charger Images
+vendor/etc/chargerimages/warning_trickle_US.png
+vendor/etc/chargerimages/warning_temperature_US.png
+vendor/etc/chargerimages/black_bg.png
+vendor/etc/chargerimages/battery_wait_ani_02.png
+vendor/etc/chargerimages/battery_wait_ani_01.png
+vendor/etc/chargerimages/battery_invalid_02.png
+vendor/etc/chargerimages/battery_invalid_01.png
+vendor/etc/chargerimages/battery_carging_warning.png
+vendor/etc/chargerimages/battery_charging_09.png
+vendor/etc/chargerimages/battery_charging_08.png
+vendor/etc/chargerimages/battery_charging_07.png
+vendor/etc/chargerimages/battery_charging_06.png
+vendor/etc/chargerimages/battery_charging_05.png
+vendor/etc/chargerimages/battery_charging_04.png
+vendor/etc/chargerimages/battery_charging_03.png
+vendor/etc/chargerimages/battery_charging_02.png
+vendor/etc/chargerimages/battery_charging_01.png
+vendor/etc/chargerimages/battery_bg.png
 
 # Firmware
 etc/firmware/a225p5_pm4.fw
