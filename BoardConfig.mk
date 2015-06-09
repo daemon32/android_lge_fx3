@@ -47,7 +47,7 @@ TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 BOARD_KERNEL_CMDLINE := androidboot.hardware=fx3s user_debug=31 vmalloc=308M androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80200000
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
+BOARD_FORCE_RAMDISK_ADDRESS := 0x82200000
 BOARD_KERNEL_PAGESIZE := 2048
 TARGET_SPECIFIC_HEADER_PATH := device/lge/fx3/include
 
@@ -185,7 +185,6 @@ COMMON_GLOBAL_CFLAGS += -DBOARD_CHARGING_CMDLINE_NAME='"androidboot.mode"' -DBOA
 # Recovery
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
-#TARGET_RECOVERY_FSTAB := device/lge/fx3/ramdisk/fstab.fx3
 TARGET_RECOVERY_INITRC := device/lge/fx3/recovery/root/init.rc
 
 #TWRP
