@@ -213,6 +213,11 @@ etc/thermald-8930-empty.conf
 etc/thermald-8960.conf
 etc/thermald-8960ab.conf
 
+# Vibration
+bin/immvibed
+lib/libImmvibeJ.so
+etc/permissions/com/lge/hardware.max-vibrator.xml
+
 # GPU/Adreno
 lib/libc2d2_a3xx.so
 lib/libc2d2_z180.so
