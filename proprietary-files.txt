@@ -246,7 +246,7 @@ vendor/etc/chargerimages/battery_wait_ani_02.png
 vendor/etc/chargerimages/battery_wait_ani_01.png
 vendor/etc/chargerimages/battery_invalid_02.png
 vendor/etc/chargerimages/battery_invalid_01.png
-vendor/etc/chargerimages/battery_carging_warning.png
+vendor/etc/chargerimages/battery_charging_warning.png
 vendor/etc/chargerimages/battery_charging_09.png
 vendor/etc/chargerimages/battery_charging_08.png
 vendor/etc/chargerimages/battery_charging_07.png
